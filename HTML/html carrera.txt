@@ -1,0 +1,20 @@
+html carrera
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> César Zaldívar</title>
+      </head>
+  <body>
+    <h1>
+      Estudié Ciencias Políticas porque siempre me han interesado las relaciones de poder, y los resultados que estas generan, entre grupos humanos, estudiadas desde su aspecto teórico.
+    </h1>
+    <h2>
+      Me ha ayudado a observar que tanto los acontecimientos en la vida pública como los comportamientos individuales de las personas, están determinados por sus circunstancias materiales.
+    </h2>
+    <h3>
+      De volver a elegir, elegiría algo similar porque creo que es importante mantenerse interesados en temas que nos afectan a todos, como individuos y sujetos sociales, pero agregaría a la carrera un enfoque más amplio de matemáticas, pues es importante desarrollar también el pensamiento lógico. 
+    </h3>
+  </body>
+</html>

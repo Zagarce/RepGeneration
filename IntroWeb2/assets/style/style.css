@@ -4,12 +4,26 @@ p{
 }
 
 #Rey{
-    color: blueviolet;
+    color: rgb(111, 24, 24)
+    width: 20;
+    height: 100;
+    margin: 20px 50px; 
+    padding: 40px;
+    border: solid red;
     }
+
 #Rene{
-    color:aqua
+    color:aqua;
+    width: 50;
+    height: 100;
+    margin: 20px 50px; 
+    padding: 20px 1px 20px 1px;   /* top, right, bottom, left*/
+    border: solid aqua;
+      
 }
+
 .CH35{
     background-color:blue
 }
+
 

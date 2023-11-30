@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+
+    <link rel="stylesheet" href="./assets/style/style.css">
+<!-- el documento .css debe estar en su propia carpeta, diferente a la de index.html -->
+
+</head>
+<body>
+
+<!-- Tenemos tres formas distintas de agregar estilos a un documento html
+
+Inline (en línea)
+
+Para trabajar con los estilos in line utilizamos la palabra reservada style y con esto ya le damos la instrucción de lo que queremos añadir. 
+Tiene mayor jerarquía sobre le etiqueta style. 
+
+-->
+
+
+<h1 align="center">Inline</h1>
+    <p style="background-color: darkred; color:burlywood; font-style: oblique; font-size:x-large;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos ea perferendis tenetur corrupti voluptatem dolores dolorum autem maxime, quam, nihil et officiis est veniam cum, recusandae molestias quidem! Magnam, a.</p>
+
+    <!-- Utilizamos la etiqueta <style> 
+    
+        cuando usamos los estilos dentro de la etiqueta style, separamos los estilos de etiqueta
+    -->
+
+    <style>
+body {
+    background-color:  gray;
+}
+
+    </style>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium natus reiciendis vitae porro atque, facere suscipit ea corrupti modi voluptatem esse, quae id perferendis alias voluptate laudantium necessitatibus ullam consectetur?</p>
+
+
+<!-- Referencia a un docuemnto de estilos externos 
+    código más limpio
+    código más entendible
+    velocidad de lectura en la página
+    escalabilidad
+
+    Utilizar estilos de un documento externo signfica que vamos a tener dos documentos; uno para html index.html con la estructura y por otro lado el documento llamado style.css para darle estilo
+-->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo labore architecto, necessitatibus incidunt optio vero consequatur sapiente odit deleniti ratione voluptate obcaecati temporibus natus autem neque nobis velit aperiam quia!</p>
+
+    <!-- Clases e ID
+    todos pertenecemos a la clase CH35, nuestro ID sería nuestro nombre
+
+    La palabra reservada class (.)
+    la palabra reservada id (#)
+    -->
+    
+<h2 class="CH35" id="Rey">Rey</h2>
+<h2 class="CH35" id="Rene">Rene</h2>
+
+
+</body>
+</html>

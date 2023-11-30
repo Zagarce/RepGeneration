@@ -1,0 +1,19 @@
+#R3{ 
+    background-color:rgba(50, 205, 50, 0.427);
+    color:white
+    
+}
+
+.tituloreceta{
+    background-color: rgba(0, 170, 255, 0.716);
+    color: whitesmoke;
+}
+
+#marca{
+    color:blue;
+    background-color: white;
+}
+
+body{
+        background-image: url(https://st4.depositphotos.com/5624298/41679/i/450/depositphotos_416790964-stock-photo-wooden-cooking-background-with-scattered.jpg);
+}

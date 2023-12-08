@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro JavaScript</title>
+<!-- Acotacion1 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600&display=swap" rel="stylesheet">
+
+
+    <style>
+     
+     
+
+      body::before {
+          content:"";
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          background-image: url(https://i.pinimg.com/originals/9a/0f/1e/9a0f1e64565b91d5b1b39f590f70d09d.gif); 
+          background-size:cover;
+          background-repeat: no-repeat;
+          opacity: 0.5;
+      }
+
+      .contenedor-con-texto {
+          height: 100vh;
+          display:grid;
+          flex-direction: column;
+          justify-content: center;
+          margin: 50px,50px,50px,50px;
+          align-items: center;
+          position: relative;
+          color: black;
+      }
+
+      :root{
+    
+    --gray: rgb(147, 150, 196);
+      }
+      
+/*Estilos generales*/
+
+body {
+    color:var(--texto-general);
+    background-color: var(--gray);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    font-size: large;
+}
+input{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.contenedor{
+    width: 320px;
+    height: auto;
+}
+            
+  </style>
+<!-- Acotación1 -->
+
+</head>
+<body>
+
+<!-- Acotación2 -->
+<div class="contenedor-con-texto">
+
+    <h1>Lomitos Disponibles</h1>
+    <form action="procesar_formulario" method="post">
+    <h4><img src="https://static.vecteezy.com/system/resources/thumbnails/010/142/178/small/animal-footprint-icon-free-png.png" width="15">  Datos personales </h4>
+    <h5><img src="https://static.vecteezy.com/system/resources/thumbnails/010/142/178/small/animal-footprint-icon-free-png.png" width="15">  Nombre completo</h5>  
+      <input class="contenedor" type="text" name="usuarios" placeholder="Nombre completo del adoptante">
+    <br> 
+    <h5><img src="https://static.vecteezy.com/system/resources/thumbnails/010/142/178/small/animal-footprint-icon-free-png.png" width="15">  Correo electrónico</h5>
+       <input class="contenedor"  type="email" name="correo" placeholder="Ingresa tu correo electrónico">
+    <br>
+    <h5><img src="https://static.vecteezy.com/system/resources/thumbnails/010/142/178/small/animal-footprint-icon-free-png.png" width="15">  Teléfono</h5>
+       <input class="contenedor" type="tel" name="telefono" placeholder="Ingresa tu número">
+    <br>
+    <h5><img src="https://static.vecteezy.com/system/resources/thumbnails/010/142/178/small/animal-footprint-icon-free-png.png" width="15">  Nivel de estudios</h5>
+       <input class="contenedor"  type="text" name="estudios" placeholder="Nivel de estudios">
+    <br>
+    <h5> <img src="https://static.vecteezy.com/system/resources/thumbnails/010/142/178/small/animal-footprint-icon-free-png.png" width="15">  Edad</h5>
+       <input class="contenedor" type="number" name="edad" placeholder="edad">
+    <br>
+    <br>
+    <hr>
+    <h4><img src="https://static.vecteezy.com/system/resources/thumbnails/010/142/178/small/animal-footprint-icon-free-png.png" width="15">  Datos del hogar</h4>
+    <h5><img src="https://static.vecteezy.com/system/resources/thumbnails/010/142/178/small/animal-footprint-icon-free-png.png" width="15">  ¿Cuentas con patio en tu jardín?</h5>
+       <label for="Patio">
+        <input id="Patio" type="radio" name="patio-terraza-jardin" value="Patio" checked>Patio
+       </label>
+      <br>
+       <label for="Terraza">
+        <input id="Terraza" type="radio" name="patio-terraza-jardin" value="terraza">Terraza
+       </label>  
+      <br>
+       <label for="Jardin">
+        <input id="Jardin" type="radio" name="patio-terraza-jardin" value="jardín">Jardín
+       </label>
+    <br>
+    <br>
+    <hr>
+    <h4><img src="https://static.vecteezy.com/system/resources/thumbnails/010/142/178/small/animal-footprint-icon-free-png.png" width="15">  Datos de la mascota</h4>
+       <input class="contenedor" type="number" name="Edad" placeholder="Edad de la mascota">
+    <br>
+    <br>
+    
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpiar formulario</button>
+    </form>
+    
+<!-- Acotación2 -->
+
+
+
+    <div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae illum quia odio iusto doloremque hic consequatur placeat similique non atque voluptate ut recusandae, consectetur et animi sed saepe eos. Aliquam.</p>
+
+
+    </div>
+
+
+<script src="../javascript/script.js"></script>
+
+
+</body>
+</html>

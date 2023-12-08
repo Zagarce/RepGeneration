@@ -1,0 +1,27 @@
+    /* Importación de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+
+    /* Definición de variables */
+:root{
+    --fuente-prim:'Montserrat Alternates';
+    --fuente-sec:'Montserrat';
+    --fuente-ter:'Roboto';
+
+    background-color:rgb(111, 103, 92);
+}
+
+h1{
+    font-family: var(--fuente-primaria);
+}
+
+h2{
+font-family: var(--fuente-secundaria);
+}
+
+h3{
+font-family: var(--fuente-ter);
+}
+
+

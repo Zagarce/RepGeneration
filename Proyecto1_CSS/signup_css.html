@@ -3,17 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-up-CSS-Avanzado</title>
     <link rel="stylesheet" href="./style/style_signup.css">
     <link rel="stylesheet" href="./assets/">
-</head>
-<body>
-    <img src="./assets/google.png" width="50" height="50">
-  <img src="./assets/mono.png" width="100" height="100">
-  <img src="./assets/apple.png" width="50" height="50">
 
-<h1>Hola mundo</h1>
-<h2>Hola mundo</h2>
-<h3>Hola mundo </h3>
+</head>
+
+<body>
+
+  <div class="container-izq">
+
+        <div id="cuenta">Create your account</div>
+        <div id="google"><a href=""><img src="./assets/google.png" width="40" height="41">Use Google</a></div>
+        <div id="apple"><a href=""><img src="./assets/apple.png" width="50" height="50">Use Apple</a></div>
+        <a href="" target="_blank"><button id="login_button">Login</button></a>
+      
+      <div id="datos">
+          <label for="usuario">Email: <br>
+            <input id="data" type="email" placeholder="Your email">
+          </label>
+          <br>
+          <label for="password">Password: <br>
+            <input id="data" type="password" placeholder="Your password">
+          </label>
+      </div>
+      <div id="already_a">Already have an account?</div>
+  </div>
+
+  <div class="container-der">
+    <div>
+      <img src="./assets/mono.png" id="mono">
+    </div>
+  </div>
+
 </body>
 </html>

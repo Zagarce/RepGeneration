@@ -42,12 +42,10 @@ body{
     top: 20px;
     left: 20px;
     background-color: var(--color-primary);
-    text-align: center;
-    /* Propiedades para centrar display: grid/flex */
+ /* Propiedades para centrar display: grid/flex */
     display:flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 /* Es posicionado de forma relativa al elemento anterior y sí permite movimiento mediante propiedades top, bottom, left, right */
@@ -66,7 +64,7 @@ body{
     left: 5px;
 }
 
-/* Ancestro sobre el cual se moverá el hijo */
+/* Ancestro respecto al cual se moverá el hijo */
 #ancestro{
     position: absolute;
     top: 200px;

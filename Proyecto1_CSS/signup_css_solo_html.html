@@ -1,6 +1,14 @@
-    /* Importación de fuentes */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up-CSS-Avanzado</title>
 
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;600&display=swap');
+<style>
+      /* Importación de fuentes */
+
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;600&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
     
@@ -160,12 +168,14 @@ body{
     font-weight: 700;
     line-height: normal;
 }
+
 a{
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .container-der{
     position: absolute;
     width: 587px;
@@ -178,10 +188,44 @@ a{
 
 #mono{
     position: absolute;
-    width: 407px;
-    height: 505px;
+    width: 360px;
+    height: 320px;
     flex-shrink: 0;
     left: 117px;
-    top: 259px;
+    top: 300px;
 }
 
+
+</style>
+
+</head>
+
+<body>
+
+  <div class="container-izq">
+
+        <div id="cuenta">Create your account</div>
+        <div id="google"><a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png" width="40" height="41">Use Google</a></div>
+        <div id="apple"><a href=""><img src="https://pngfre.com/wp-content/uploads/apple-logo-13-1024x1024.png" width="50" height="50">Use Apple</a></div>
+        <a href="" target="_blank"><button id="login_button">Login</button></a>
+      
+      <div id="datos">
+          <label for="usuario">Email: <br>
+            <input id="data" type="email" placeholder="Your email">
+          </label>
+          <br>
+          <label for="password">Password: <br>
+            <input id="data" type="password" placeholder="Your password">
+          </label>
+      </div>
+      <div id="already_a"><a href="">Already have an account?</a></div>
+  </div>
+
+  <div class="container-der">
+    <div>
+      <img src="https://kwantec.com/wp-content/uploads/2022/12/nearshore-techonology.png" id="mono">
+    </div>
+  </div>
+
+</body>
+</html>

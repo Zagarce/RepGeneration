@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(90deg, #18b7c97a 0%, #2b7e7db0 100%);
+    color: #0c007d;
+    font-family: '', sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: solid black 2px;
+    box-shadow: rgb(230, 230, 230) 0px 0px 6px 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor:pointer;
+    margin-bottom: 50px;
+}
+
+button:hover{
+    background-color: #37e50b2c;
+    color: #f9f9f9;
+    border:none;
+}
+
+#mensaje, #store{
+    text-align: center;
+    
+}

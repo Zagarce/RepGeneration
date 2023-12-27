@@ -82,7 +82,7 @@ Escribe un programa que determine si un número ingresado por el usuario es prim
             console.log(`${numero} no es un número primo`);
         }  */
 
-esPrimo(Math.abs(Math.round(161684179)));
+esPrimo(Math.abs(Math.round(135479)));
 
         function esPrimo(numero) {
             if(isNaN(numero)) { 
@@ -93,7 +93,7 @@ esPrimo(Math.abs(Math.round(161684179)));
             }
             for (let i = 2; i < numero; i++) {
                 if (numero % i === 0) {
-                    return console.log(`El mínimo divisor de ${numero} es ${i}. Por tanto, no es primo.`);; 
+                    return console.log(`El mínimo divisor de ${numero} es ${i}. Por tanto, no es primo.`); 
                 }
             }
             return console.log(`${numero} es un número primo`);
@@ -111,13 +111,13 @@ function fibonacci(n) {
     var b=1;
     console.log(a);
     console.log(b);
-    for(let i=2; i<=n; i++){
+    for(let i=2; i<=n; i++){ // comenzamos en i=2 porque ya se definiieron los primeros dos términos (0 y 1)
         var suma = a+b; // Paso 1. Se hace la suma usando los valores definidos de a y b
-        a = b; // Paso 2. Se redefine a usando el penúltimo valor de la serie para el siguiente ciclo
-        b = suma; // Paso 3. Se redefine b usando el último valor de la serie para el siguiente ciclo
+        a = b; // Paso 2. Se redefine 'a' usando el penúltimo valor de la serie para el siguiente ciclo
+        b = suma; // Paso 3. Se redefine 'b' usando el último valor de la serie para el siguiente ciclo
         console.log(suma); // Imprime el valor de suma por cada ciclo 
     }
-    //return console.log(suma); //Devuelve el n-ésimo término
+    //return console.log(suma); //Devuelve solo el n-ésimo término
 }
 
 /*

@@ -2,7 +2,7 @@
  
     - Leer y traer nodos del árbol del DOM
         document.getElementsById : trae elementos por id
-        document.getElemntsByClassName : trae elementos por class
+        document.getElemntByClassName : trae elementos por class
         document.getElementsByTagName : trae elementos por etiquetas
         */
 
@@ -22,7 +22,7 @@ const tituloH3 = document.getElementsByTagName("h3")
 console.log(tituloH3)
 console.log(tituloH3[0].innerText)
 
-/* Métodos para llamar elementos mediante seleectores de CSS
+/* Métodos para llamar elementos mediante selectores de CSS
 
     Se usa para procesos más específicos y la sintaxis querySelector
         -document.querySelector("selector")

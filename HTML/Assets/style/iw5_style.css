@@ -14,7 +14,7 @@
     --color-secundary: #9866de;
     --color-text-primary: #4a979b;
     --color-text-secundary: #7e7ee0;
-    --color-background: #83DE66;
+    --color-background: #427c30;
     --color-light: rgb(243, 223, 223);
     --color-dark: rgb(30, 0, 0);
     }
@@ -174,7 +174,7 @@ body{
     align-items: center;    
 }
 
-a{ /* Propiedades visuales para las etiquetas <a> */
+a{ /* Propiedades visuales para los elementos <a> */
     text-decoration: none;
     color: var(--color-dark)
 }

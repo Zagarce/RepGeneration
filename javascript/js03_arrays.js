@@ -106,4 +106,3 @@ console.log(sliceCh35);
     - splice 
     - indexOf
 */
-

@@ -217,6 +217,7 @@ a{ /* Propiedades visuales para los elementos <a> */
     text-align: center;
     margin: 10px;
     font-size: 18px;
+    gap: 10px;
 }
 }
 header {

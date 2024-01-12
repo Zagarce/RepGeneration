@@ -82,6 +82,3 @@ console.log(salariesMxn.length);
     console.table(cars);
     //Mostrando mi objeto como tabla
     console.table(employee)
-
-
-

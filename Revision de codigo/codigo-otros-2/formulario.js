@@ -5,15 +5,15 @@ formulario.onsubmit = function(e) { // cambiamos el argumento duplicado con la v
 
   e.preventDefault(); // Corregimos el método preventDefault(), que detiene el programa por un error en los event listeners
   
-  var n = formulario.elements[0] // .elements accede al elemento [i-esimo] de un array que contiene los elementos dentro de un formulario (en este caso [0]: input, [1]: input, [2]: select [3]: input) 
-  var e = formulario.elements[1]
-  var na = formulario.elements[2]
+  var elementoNombre = formulario.elements[0] // .elements accede al elemento [i-esimo] de un array que contiene los elementos dentro de un formulario (en este caso [0]: input, [1]: input, [2]: select [3]: input) 
+  var elementoEdad = formulario.elements[1]
+  var elementoNacionalidad = formulario.elements[2]
 
-  var nombre = n.value // .value permite obtener el valor de entrada de un elemento del formulario (p.e. input, textarea, select, etc.)
-  var edad = e.value
+  var nombre = elementoNombre.value // .value permite obtener el valor de entrada de un elemento del formulario (p.e. input, textarea, select, etc.)
+  var edad = elementoEdad.value
 
-  var i = na.selectedIndex // .selectedIndex obtiene el indice de la opcion seleccionada dentro del elemento select (lista desplegable)
-  var nacionalidad = na.options[i].value // .options[] muestra el [i-esimo] elemento option dentro del elemento select
+  var i = elementoNacionalidad.selectedIndex // .selectedIndex obtiene el indice de la opcion seleccionada dentro del elemento select (lista desplegable)
+  var nacionalidad = elementoNacionalidad.options[i].value // .options[] muestra el [i-esimo] elemento option dentro del elemento select
   console.log(nombre, edad)
   console.log(nacionalidad)
 

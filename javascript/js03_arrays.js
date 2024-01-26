@@ -53,13 +53,15 @@ console.log("Arreglo de arreglos");
 const estados = ["Estado de México", "Jalisco", "Yucatán", "Sonora", "Oaxaca", "CDMX"];
 const platillos = ["Guajolocombo", "Torta ahogada", "Panuchos", "Dogos", "Tlayuda", "Tacos"];
 
+// Longitud de un string
+console.log(platillos[0].length)
+
 const menu = [estados, platillos]; 
 console.log( menu[0][1] , menu[1][1] );
 
 
 /*  * * * Métodos de Arrays * * *
     
-
     - Métodos de cola : Implica agregar elementos al final del array y eliminar al inicio del array. Sigue al principio de FIFO (first-in - first-out), lo que significa que el primer elemento añadido es el primer elemento eliminado.
         -push
         -shift

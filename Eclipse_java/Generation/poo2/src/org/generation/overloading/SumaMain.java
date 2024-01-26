@@ -18,7 +18,7 @@ public class SumaMain {
 		
 		System.out.println("La suma de enteros es " + suma1);
 		System.out.println("La suma de decimales es " + Math.round(suma2 * Math.pow(10, 2))/ Math.pow(10, 2));
-		System.out.println("El resultado exacto de la suma de decimales es " + suma3);
+		System.out.println("El resultado exacto de la suma usando BigDecimal es " + suma3);
 		
 	}
 }

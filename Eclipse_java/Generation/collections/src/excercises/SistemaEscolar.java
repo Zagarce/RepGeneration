@@ -59,7 +59,7 @@ public class SistemaEscolar {
 		
 		//Loop para permitir agregar usuarios
 		String nombreEstudiante;
-		estudiantes.add("");
+		int k = 1;
 		
 		
 		do {
@@ -74,8 +74,8 @@ public class SistemaEscolar {
 	// Mostrar lista de estudiantes (for-Each)
 		 System.out.println("\n**Lista de estudiantes");
 		
-		for(int i = 1; i < estudiantes.size();i++) {
-			System.out.println(i +". " + estudiantes.get(i));
+		for(String estudiante:estudiantes) {
+			System.out.println(k++ + ". " + estudiante);
 		}
 		
 	// Verificamos si se desea elmiminar un estudiante de la lista			

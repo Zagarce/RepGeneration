@@ -70,11 +70,4 @@ public class Employee {
 				+ puesto + "]";
 	}
 	
-	
-	
-	
-	
-	
-	
-	
 }
